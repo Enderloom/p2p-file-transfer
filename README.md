@@ -1,6 +1,6 @@
 # Server və Müştəri Tətbiqi
 
-Bu layihə, server və müştəri tətbiqləri ilə faylları yükləmək, siyahıya salmaq və endirmək üçün istifadə edilə bilər. Tətbiqlər Azərbaycan dilində interfeys təqdim edir.
+Bu layihə, server və müştəri tətbiqləri ilə faylları yükləmək, siyahıya salmaq və endirmək üçün istifadə edilə bilər. Hərhalda mümkün ola biləcək ən kiçik fayl transferi proqramıdır.
 
 ## Əsas Tələblər
 
@@ -11,28 +11,26 @@ Bu layihə, server və müştəri tətbiqləri ilə faylları yükləmək, siyah
 
 1. **Depoları klonlayın və ya faylları yükləyin:**
 
-   Terminalda və ya Komanda Satırında:
+   Terminalda və ya command prompt içində:
 
    ```bash
-   git clone <repo_url>
-   cd <repo_folder>
+   git clone https://github.com/Enderloom/small-file-transfer
+   cd small-file-transfer
    ```
 
 2. **Tələb olunan kitabxanaları quraşdırın:**
 
-   Əgər `requirements.txt` faylınız varsa, aşağıdakı əmr ilə kitabxanaları quraşdırın:
+   Tələb olunan kitabxanaların siyahısı `requirements.txt` faylında verilmişdir. Onları quraşdırmaq üçün sadəcə reponun klonu olan qovluqda terminal və ya command prompt açaraq:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Tələb olunan kitabxanaları əl ilə quraşdırmaq istəyirsinizsə:**
-
-   ```bash
-   pip install flask requests tqdm
-   ```
-
 ## Tətbiqdən İstifadə
+
+### Ümumi məntiq
+
+Şəbəkədə olan hər hansı bir kompüter server olaraq istifadə olunur. Bu şəbəkədə olan digər kompüterlər müştəri olaraq işləyir. Server kompüterinin özü də müştəri proqramını server ilə eyni anda istifadə edə bilər.
 
 ### Server Tərəfi
 
@@ -96,4 +94,4 @@ Bu layihə Python istifadəçilərinə faylların idarə edilməsi və server/m�
 
 --- 
 
-Uğurlar! 😊
+Xoşunuza gəlsə, ulduzlamağı unutmayın! 😊
