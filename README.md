@@ -1,4 +1,4 @@
-# Server və Müştəri Tətbiqi
+# Peer-to-Peer fayl transferi proqramı
 
 Bu layihə, server və müştəri tətbiqləri ilə faylları yükləmək, siyahıya salmaq və endirmək üçün istifadə edilə bilər. Hərhalda mümkün ola biləcək ən kiçik fayl transferi proqramıdır.
 
