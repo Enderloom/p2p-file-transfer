@@ -1,6 +1,6 @@
 # Peer-to-Peer fayl transferi proqramı
 
-Bu layihə, server və müştəri tətbiqləri ilə faylları yükləmək, siyahıya salmaq və endirmək üçün istifadə edilə bilər. Hərhalda mümkün ola biləcək ən kiçik fayl transferi proqramıdır.
+Bu layihə, server və müştəri tətbiqləri ilə faylları yükləmək, siyahıya salmaq və endirmək üçün istifadə edilə bilər. CLI interfeysli fayl paylaşım tətbiqidir.
 
 ## Əsas Tələblər
 
@@ -18,14 +18,9 @@ Bu layihə, server və müştəri tətbiqləri ilə faylları yükləmək, siyah
    cd small-file-transfer
    ```
 
-2. **Tələb olunan kitabxanaları quraşdırın:**
+2. **Faylları çalıştırın:**
 
-   Tələb olunan kitabxanaların siyahısı `requirements.txt` faylında verilmişdir. Onları quraşdırmaq üçün sadəcə reponun klonu olan qovluqda terminal və ya command prompt açaraq:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
+   Tələb olunan fayllar windows-binaries qovluğunda yerləşir. Onları çalıştırmaq üçün üzərində iki dəfə klikləyin.
 ## Tətbiqdən İstifadə
 
 ### Ümumi məntiq
@@ -34,10 +29,10 @@ Bu layihə, server və müştəri tətbiqləri ilə faylları yükləmək, siyah
 
 ### Server Tərəfi
 
-1. `server.py` faylını işə salmaq üçün aşağıdakı əmrdən istifadə edin:
+1. `server.exe` faylını işə salmaq üçün aşağıdakı əmrdən istifadə edin:
 
    ```bash
-   python server.py
+   python server.exe
    ```
 
 2. Terminalda serverin IP ünvanını və portunu (adətən `8080`) görə bilərsiniz.
@@ -46,10 +41,8 @@ Bu layihə, server və müştəri tətbiqləri ilə faylları yükləmək, siyah
 
 ### Müştəri Tərəfi
 
-1. `client.py` faylını işə salmaq üçün:
-
-   ```bash
-   python client.py
+1. `client.exe
+   python client.exe
    ```
 
 2. İlk olaraq serverin IP ünvanını daxil edin.
@@ -85,13 +78,5 @@ Misal:
 ```bash
 download 1
 ```
-
----
-
-## Layihə haqqında
-
-Bu layihə Python istifadəçilərinə faylların idarə edilməsi və server/müştəri konsepsiyasını öyrənmək üçün əla bir nümunədir.
-
---- 
 
 Xoşunuza gəlsə, ulduzlamağı unutmayın! 😊
