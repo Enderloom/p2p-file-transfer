@@ -4,7 +4,7 @@ Bu layihə, server və müştəri tətbiqləri ilə faylları yükləmək, siyah
 
 ## Əsas Tələblər
 
-- Python 3.7 və ya daha yüksək versiya
+- Windows 7 və ya daha yüksək versiya (64-bit)
 - İnternet bağlantısı (serverə qoşulmaq üçün)
 
 ## Quraşdırma
