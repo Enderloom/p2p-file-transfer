@@ -4,7 +4,7 @@ Bu layihə, server və müştəri tətbiqləri ilə faylları yükləmək, siyah
 
 ## Əsas Tələblər
 
-- Python 3.7 və ya daha yüksək versiya
+- Windows 7 və ya daha yüksək versiya (64-bit)
 - İnternet bağlantısı (serverə qoşulmaq üçün)
 
 ## Quraşdırma
@@ -29,9 +29,7 @@ Bu layihə, server və müştəri tətbiqləri ilə faylları yükləmək, siyah
 
 ### Server Tərəfi
 
-1. `server.exe` faylını işə salmaq üçün aşağıdakı əmrdən istifadə edin:
-
-   ```bash
+1. ```bash
    python server.exe
    ```
 
@@ -41,7 +39,7 @@ Bu layihə, server və müştəri tətbiqləri ilə faylları yükləmək, siyah
 
 ### Müştəri Tərəfi
 
-1. `client.exe
+1. ```bash
    python client.exe
    ```
 
