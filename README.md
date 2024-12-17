@@ -14,7 +14,7 @@ Bu layihə, server və müştəri tətbiqləri ilə faylları yükləmək, siyah
    Terminalda və ya command prompt içində:
 
    ```bash
-   git clone https://github.com/Enderloom/small-file-transfer
+   git clone https://github.com/hemidzeki/small-file-transfer
    cd small-file-transfer
    ```
 
